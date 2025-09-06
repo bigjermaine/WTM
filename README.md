@@ -32,3 +32,12 @@ var religion = "Christian".
 var occupation = "Native IOS Developer"
 
 print("\{firstName } \{lastName } is my name. I am a \{ gender}, \{ religion}, born \{ dateOfBirth}, and a \{ occupation}.")
+
+# Aderonke's Task
+
+let firstname = "Aderonke"
+var surname = "Bakare"
+var occupation = "Software engineer"
+
+
+print("My name is  \( firstname)  \( surname),  I am a \( occupation).")
