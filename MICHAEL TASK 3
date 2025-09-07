@@ -1,0 +1,16 @@
+/ Create an array for traffic light colors
+let trafficLights = ["Green", "Amber", "Red"]
+
+// Pick one color to represent the current light
+let activeLight = trafficLights.first ?? ""
+
+// Decide action based on the current light
+if activeLight == "Green" {
+    print("The car can GO now")
+} else if activeLight == "Amber" {
+    print("The car should PREPARE to move")
+} else if activeLight == "Red" {
+    print("The car must STOP")
+} else {
+    print("Unknown traffic light color")
+}

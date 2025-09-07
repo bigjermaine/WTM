@@ -1,0 +1,14 @@
+/*Assignment 
+
+Write a condition that defines an array of traffic light colors , define it with control flow
+*/
+
+var trafficLightColors: [String] = ["Green", "Amber", "Red"]
+
+if trafficLightColors[0] == "Green" {
+	print("Can GO")
+} else if trafficLightColors[1] == "Amber" {
+	print("Be ready to GO")
+} else {
+	print("STOP")
+}
