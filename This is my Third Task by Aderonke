@@ -1,0 +1,19 @@
+Assignment 
+
+Write a condition that defines an array of traffic light colors , define it with control flow
+
+// Define an array of traffic light colors
+var trafficLightColors: [String] = ["Green", "Yellow", "Red"]
+
+// Use control flow to check the current traffic light
+let currentLight = trafficLightColors[0]   // Assume the first light is the current one
+
+if currentLight == "Green" {
+    print("Car should GO")
+} else if currentLight == "Yellow" {
+    print("Car should GET READY to go")
+} else if currentLight == "Red" {
+    print("Car should STOP")
+} else {
+    print("Invalid traffic light color")
+}
