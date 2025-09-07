@@ -1,0 +1,8 @@
+# Aderonke's Task
+
+let firstName = "Aderonke"
+var lastName = "Bakare"
+let gender = "Female"
+var occupation = "Data Analyst/Data Scientist"
+
+print("\(firstName ) \(lastName) is my name. I am a \( occupation).")
