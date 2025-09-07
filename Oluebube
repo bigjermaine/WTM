@@ -1,0 +1,17 @@
+## Task 1
+
+let name = "Oluebube"
+var occupation = "NativeIOS developer"
+
+Print["My name is \(name). I am a \(occupation)"]
+
+## Task 3
+
+var Traffic light = [Red, Yellow, Green]
+
+If Traffic light[0] = Red
+      {print ("Stop")},
+   Traffic light [1] = Yellow
+      {print ("Caution")}
+   else {print ("Go")}
+   
