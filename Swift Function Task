@@ -1,0 +1,13 @@
+func compareAge(age: Int) -> Any {
+
+	var myAge: Int = 41
+	let accreditedPoliticalAge: Int = 21
+	var diff: Int = accreditedPoliticalAge - myAge
+
+	if myAge >= accreditedPoliticalAge {
+		print("You are eligible to be a politician in Nigeria")
+	} else {
+		print("You are not eligible to be a politician in Nigeria. You have to wait for \(diff) more years")
+	}
+}
+compareAge(age: Int)
